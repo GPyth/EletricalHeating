@@ -49,8 +49,8 @@ WiFiUDP ntpUDP;
 NTPClient timeClient(ntpUDP);
 #include <ESP8266HTTPClient.h>
 //WLAN Access
-const char *ssid = "NationalparkSpessart";  // You WIFI DATA
-const char *password = "62117742064635826514";  // You WIFI DATA
+const char *ssid = "xxx";  // You WIFI DATA
+const char *password = "xxx";  // You WIFI DATA
 
 float low_t[12]   = {-3.0,-2.0,0.0, 3.0, 7.0,10.0,12.0,12.0, 9.0, 5.0,1.0,-1.0};
 float  high_t[12] = {2.0,  3.0,7.0,11.0,16.0,20.0,20.0,20.0,18.0,13.0,7.0, 3.0};
